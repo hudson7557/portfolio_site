@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    display: inline-block;
+    padding: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#main-content {
+    padding-top: 50px;
+}
+
+nav {
+    background: coral;
+    padding: 0 15px;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Mobile Styling */
+#menu {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu li a {
+    display: block;
+    padding: 15px 5px;
+}
+
+#name {
+    font-size: 20px;
+    padding: 7.5px 10px 7.5px 0;
+    display: block;
+}
+
+#toggle {
+    order: 1;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.fas {
+    z-index: 1;
+}
+
+.nav-link {
+    order: 2;
+    width: 100%;
+    text-align: center;
+    display: none;
+    padding: 10px;
+}
+
+.active .nav-link {
+    display: block;
+}
+
+/* Tablet menu */
+@media all and (min-width: 700px) {
+    #menu {
+        justify-content: space-between;
+    }
+
+    #toggle {
+        text-align: right;
+        order: 1;
+    }
+}
+
+@media all and (min-width: 960px) {
+    #menu {
+        flex-wrap: nowrap;
+        background: none;
+        text-align: right;
+        margin-left: auto;
+    }
+    
+    #name {
+        order: 0;
+    }
+
+    .nav-link {
+        order: 1;
+        position: relative;
+        display: block;
+        width: auto;
+
+    }
+    
+    #toggle {
+        display: none;
+    }
+}

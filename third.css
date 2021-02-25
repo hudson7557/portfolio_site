@@ -1,0 +1,150 @@
+/*
+ Theme colors:
+ Dark blue:      #05386B
+ Weird green:    #379683
+ Kelly green:    #5CDB95
+ Mint green:     #8EE4AF
+ Cream:          #EDF5E1
+*/
+
+/* Navbar Styling */
+.navbar {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  background-color: rgb(11, 145, 179); 
+}
+
+.navbar-hide {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.nav-link {
+    padding: 10px;
+    color: white !important;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  color: goldenrod !important;
+}
+
+body {
+    position: relative;
+    background-color: whitesmoke;
+}
+
+#content{
+    padding-top: 60px;
+
+}
+
+.project-lang {
+  color: grey;
+}
+
+.github-btn {
+  height: auto;
+  width: 5%;
+}
+
+.github-link {
+  text-decoration: none;
+}
+
+.github-button {
+  height: auto;
+  min-width: 42px; /* Minimum width for a button on phone screen */ 
+  max-width: 10%;
+}
+
+.card-header {
+  background-color: #5CDB95;
+  color: #05386B;
+}
+
+.card-body {
+  background-color: #EDF5E1;
+}
+
+.featured-cards {
+  width: auto;
+  height: 550px;
+  margin: 10px;
+}
+
+.more-cards {
+  height: 250px;
+}
+
+.btn-outline-info {
+  border-color: #5CDB95;
+  color: #5CDB95;
+  background-color: #05386B;
+}
+
+.btn-outline-primary:hover {
+  background-color: #05386B;
+}
+
+/* Style the images for cards */
+.card-img-top {
+  width: auto;
+  max-height: 350px;
+  object-fit: cover;
+  object-position: 0% 0%;
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.contact-button {
+  height: auto;
+  min-width: 42px; /* Minimum width for a button on phone screen */ 
+  max-width: 10%;
+}
+
+#resume-button {
+  display: inline-block;
+  border-radius: 5px;
+  height: 42px;
+  width: 50%;
+  background-color: #05386B;
+}
+
+.hide-this {
+  display: none;
+}
+
+.hidden-message {
+  display: none;
+}
+
+#see-more {
+  background-color: grey;
+  width: 50%;
+}
+
+.more-button {
+  text-align: center;
+  padding: 20px;
+}
+
+.connect-with-me {
+  color: black;
+  text-decoration: none;
+  font-size: 42px;
+}
+
+.social:visited {
+  color: black;
+}

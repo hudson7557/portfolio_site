@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <!--Including Bootstap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css" media="screen">
+  <title>Scott Hudson</title>
+</head>
+<body>
+  <nav class="navbar smart-scroll navbar-expand-lg navbar-custom fixed-top" id="navarino">
+      <a class="navbar-brand" href="#top">Scott Hudson</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">Click</span>
+      </button>
+      <div class="navbar-collapse collapse " id="mainNav">
+        <ul class="nav navbar-nav ms-auto">
+          <li class="nav-item about end active">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item projects">
+            <a class="nav-link" href="#projects">Featured Projects</a>
+          </li>
+          <li class="nav-item more_projects">
+            <a class="nav-link" href="#more_projects">More Projects</a>
+          </li>
+          <li class="nav-item contact">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+  <main id="main" data-spy="scroll" data-target="navarino">
+    <header id="topper">
+      <div id="headerContainer" class="container">
+        <div id="profilePic" class="d-flex justify-content-center">
+          <!--<img src=""  id="profilePicture">-->
+        </div>
+        <div id="profileText" class="d-flex justify-content-center">
+          Hi! I’m Scott Hudson, a student and Teaching Assistant in OSU’s online Computer Science program who’s working to become a software engineer. 
+        </div>
+      </div>
+    </header>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I’m a Colorado native who currently lives in Denver Colorado. I used to be a Special Education teacher, decided to change careers.  
+        Now I'm a student at <a href="https://ecampus.oregonstate.edu/online-degrees/undergraduate/computer-science-postbacc/" target="blank">Oregon State University ECampus</a> where I also work as TA and help develop curriculum.
+        My goal is to become a Software Engineer and work on creating powerful, unique, and beautiful software that pushes the limits of what is currently “possible”.
+      </p>
+    </section>
+    <section id="projects">
+      <div class="row align-items-center no gutters">
+        <div class="col-12 d-flex h-100">
+          <div class="justify-content-center align-self-center">
+            <h2>My projects</h2>
+            <p>
+              These are a few of my projects, there's some Python, C, HTML/CSS/JS, and MySQL here right now. Use the
+              <a href="https://github.com/hudson7557" target="blank">GitHub</a> links to see the code in a repo and the "see it in action" to see videos or sites hosting the project.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row align-items-center no gutters">
+        <div class="col-8 d-flex h-100">
+          <div class="justify-content-center align-self-center">
+            <h4 class="project-title">Encryption Servers</h4>
+            <h5 class="project-lang">C</h5>
+            <p>A set of one-time pad encryption and decryption servers designed to follow a producer consumer pipeline.</p>
+            <a href="https://github.com/hudson7557/hudsonsc_program5" target="blank">
+              <img src="media/GitHub-Mark-120px-plus.png" class="github-btn">
+            </a>
+            <a href="https://repl.it/@ScottHudson/hudsonscprogram5#README.md" target="blank">
+              <button>See it in action</button>
+            </a>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="media/C.png" class="img-fluid">
+        </div>
+      </div>
+      <div class="row align-items-center no gutters">
+        <div class="col-4">
+            <img src="media/C.png" class="img-fluid">
+        </div>
+        <div class="col-8 d-flex h-100">
+          <div class="justify-content-center align-self-center">
+            <h4 class="project-title">Xiangqui</h4>
+            <h5 class="project-lang">Python</h5>
+            <p>A Xiangqui, or Chinese cheese, program with can be played in terminal and detects when someone has won.</p>
+            <a href="https://github.com/hudson7557/Portfolio-Project" target="blank">
+              <img src="media/GitHub-Mark-120px-plus.png" class="github-btn">
+            </a>
+            <button>See it in action</button>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center no gutters">
+        <div class="col-8 d-flex h-100">
+          <div class="justify-content-center align-self-center">
+            <h4 class="project-title">Hardly Working(Out)</h4>
+            <h5 class="project-lang"> HTML / CSS / JS / SQL</h5>
+            <p>A gameplay workout app which features a full backend to allow users to pick pre-built workouts, create new workouts, and challenge friends.</p>
+            <a href="https://github.com/djmasoner/Hardly-Working-Out" target="blank">
+              <img src="media/GitHub-Mark-120px-plus.png" class="github-btn">
+            </a>
+            <button>See it in action</button>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="media/C.png" class="img-fluid">
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact information</h2>
+      <button id="resumeButton">
+        Get my resume
+      </button>
+      <a href="https://github.com/hudson7557" target="blank">github</a>
+      <a href="https://www.linkedin.com/in/scott-hudson-5964b999/" target="blank">linkedin</a>
+      <a href="https://www.instagram.com/a.scotts.tale/?hl=en" target="blank">Instagram</a>
+      Email me at <a href="mailto:hudson7557@gmail.com">hudson7557@gmail.com</a>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</body>
+<script type="text/javascript" src="index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+</html>
