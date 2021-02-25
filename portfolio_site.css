@@ -46,21 +46,6 @@ body {
   color: grey;
 }
 
-.github-btn {
-  height: auto;
-  width: 5%;
-}
-
-.github-link {
-  text-decoration: none;
-}
-
-.github-button {
-  height: auto;
-  min-width: 42px; /* Minimum width for a button on phone screen */ 
-  max-width: 10%;
-}
-
 .card-header {
   background-color: #5CDB95;
   color: #05386B;
