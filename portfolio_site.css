@@ -62,7 +62,7 @@ body {
 }
 
 .more-cards {
-  height: 250px;
+  height: 300px;
 }
 
 .btn-outline-info {
@@ -102,7 +102,7 @@ p {
   display: inline-block;
   border-radius: 5px;
   height: 42px;
-  width: 50%;
+  max-width: 30% !important;
   background-color: #05386B;
 }
 
