@@ -56,10 +56,11 @@ body {
 
 .featured-cards {
   margin: 10px;
+  height: 90%;
 }
 
 .more-cards {
-  height: 300px;
+  height: 100%;
 }
 
 .btn-outline-info {
