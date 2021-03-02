@@ -39,7 +39,6 @@ body {
 
 #content{
     padding-top: 60px;
-
 }
 
 .project-lang {
@@ -56,8 +55,6 @@ body {
 }
 
 .featured-cards {
-  width: auto;
-  height: 550px;
   margin: 10px;
 }
 
