@@ -9,7 +9,7 @@
   <title>Scott Hudson</title>
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navarino" data-bs-offset="0" tabindex="0">
-  <nav id="navarino" class="navbar navbar-expand-lg navbar-light fixed-top">
+  <nav id="navarino" class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container-fluid">
       <div class="navbar-brand">Scott Hudson</div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation" id="hamburger">
@@ -37,17 +37,18 @@
     <section id="about">
       <header id="topper">
         <div id="header-container" class="container">
-          <div id="profile-text" class="d-flex justify-content-center">
-            <p>
+          <div id="profile-text container-fluid">
+            <p id="hello-msg">
               Hi! I’m Scott Hudson, a student and Teaching Assistant in OSU’s online Computer Science program who’s working to become a software engineer. 
             </p>
+
           </div>
-          <div id="profile-container" class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center" id="profile-container">
             <img src="media/IMG_6365.jpeg"  id="profile-picture">
           </div>
         </div>
       </header>
-      <div class="container-fluid">
+      <div class="container-fluid" id="profile-about">
         <h1>About Me</h1>
         <p>
           I’m a Colorado native who currently lives in Denver Colorado. I used to be a Special Education teacher, decided to change careers.  
@@ -55,17 +56,12 @@
           My goal is to become a Software Engineer and work on creating powerful, unique, and beautiful software that pushes the limits of what is currently “possible”. 
           When I'm not working I spend my time with family and friends, doing anything outdoors, playing videogames, and volunteering at a summer camp in West Virginia.
         </p>
-        <br>
-        <br>
-        <br>
       </div>
     </section>
     <section id="projects">
       <div class="container">
         <h1>Featured Projects</h1>
       </div>
-      <br>
-      <br>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="featured-cards card">
@@ -129,11 +125,6 @@
           </div>
         </div>
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
     </section>
     <section id="more_projects">
       <h1>More Projects</h1>
@@ -275,26 +266,19 @@
             </div>
           </div>
           <div class="row justify-content-center">
-            <button class="btn btn-outline-info btn-lg" type="button" id="see-more">See More</button>
+            <button class="btn btn-outline-info btn-lg" type="button" id="see-more">See More Projects</button>
           </div>
         </div>
     </section>
     <section id="contact">
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
       <div class="container">
-        <h1>Contact information</h1>
-        <br>
-        <br>
+        <h1 id="contact-header">Contact information</h1>
         <div class="row justify-content-center">
-            <button class="btn btn-outline-info" type="button" id="resume-button">
+            <button class="btn btn-outline-info btn-lg" type="button" id="resume-button">
               Get my resume <i class="bi bi-download"></i>
             </button>
         </div>
-        <div class="row">
+        <div class="row" id="connect-links">
           <p>
             <a href="https://github.com/hudson7557" class="connect-with-me" target="blank">
               <i class="bi bi-github"></i>

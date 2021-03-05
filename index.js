@@ -87,9 +87,9 @@ function more_button() {
   });
 };
 
-  /* function loadPdf() {
-    window.open("Resume June 2020.pdf")
-  } */
+  function loadPdf() {
+    window.open("Resume March 2021.pdf")
+  } 
 
   /* Event listener to implement the navbars disappearing
   // effect on scroll
@@ -116,24 +116,3 @@ function more_button() {
 /* function loadPdf() {
   window.open("Resume June 2020.pdf")
 } */
-
-/* Event listener to implement the navbars disappearing 
-// effect on scroll 
-window.addEventListener('scroll', function() {
-
-  let navBar = document.getElementById("navarino");
-
-  current_position = window.scrollY;
-
-  // Scrolling down 
-  if (last_position < current_position - 10) {
-    navBar.classList.add("navbar-hide");
-    last_position = current_position;
-  }
-  // Scrolling up
-  if (last_position > current_position) {
-    navBar.classList.remove("navbar-hide");
-    last_position = current_position;
-  }
-}); 
-*/

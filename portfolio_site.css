@@ -1,17 +1,8 @@
-/*
- Theme colors:
- Dark blue:      #05386B
- Weird green:    #379683
- Kelly green:    #5CDB95
- Mint green:     #8EE4AF
- Cream:          #EDF5E1
-*/
-
 /* Navbar Styling */
 .navbar {
   opacity: 1;
   transition: opacity 0.5s ease;
-  background-color: rgb(11, 145, 179); 
+  background-color: #12232e; 
 }
 
 .navbar-hide {
@@ -34,8 +25,9 @@
 
 body {
   position: relative;
-  background-color: whitesmoke;
+  background-color:#203647;
   font: 1.2em "Optima", serif;
+  color: #EEFBFB;
 }
 
 #content{
@@ -48,17 +40,19 @@ body {
 }
 
 .card-header {
-  background-color: #5CDB95;
-  color: #05386B;
+  background-color: #12232E;
+  color: #EEFBFB;
   text-align: center;
 }
 
 .card-body {
-  background-color: #EDF5E1;
+  background-color: #12232E;
+
 }
 
 .card {
   margin: 10px;
+  border-color: #12232e;
 }
 
 .featured-cards {
@@ -74,12 +68,8 @@ body {
 }
 
 .btn-outline-info {
-  border-color: #5CDB95;
-  color: #5CDB95;
-  background-color: #05386B;
-}
-
-.btn-outline-primary:hover {
+  color: #EEFBFB;
+  border: none;
   background-color: #05386B;
 }
 
@@ -94,6 +84,7 @@ body {
 
 h1 {
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .card-title {
@@ -111,11 +102,17 @@ p {
 }
 
 #resume-button {
-  display: inline-block;
-  border-radius: 5px;
-  height: 42px;
   width: 50% !important;
-  background-color: #05386B;
+  max-width: 50%;
+  background-color: #4DA8DA;
+}
+
+#resume-button-container {
+  padding-bottom: 25px;
+}
+
+#connect-links {
+  padding-top: 15px;
 }
 
 .hide-this {
@@ -126,14 +123,18 @@ p {
   display: none;
 }
 
+#alert-msg {
+  padding: 25px;
+}
+
 #see-more {
-  background-color: grey;
+  background-color: #4DA8DA;
   width: 50%;
 }
 
 .more-button {
   text-align: center;
-  padding: 20px;
+  padding-top: 25px;
 }
 
 .connect-with-me {
@@ -163,9 +164,23 @@ p {
 
 #profile-text {
   padding-bottom: 25px;
+  width: 90%;
+}
+
+#profile-about {
+  width: 90%;
 }
 
 #header-container {
   padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+#hello-msg {
+  padding-bottom: 25px;
+}
+
+#contact-header {
+  padding-top: 50px;
   padding-bottom: 50px;
 }
