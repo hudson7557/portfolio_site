@@ -1,5 +1,5 @@
-//let resumeBtn = document.getElementById("resumeButton");
-//resumeBtn.addEventListener("click", loadPdf);
+let resumeBtn = document.getElementById("resume-button");
+resumeBtn.addEventListener("click", loadPdf);
 
 let current_position = scrollY;
 let last_position = 0;
@@ -88,7 +88,7 @@ function more_button() {
 };
 
   function loadPdf() {
-    window.open("Resume March 2021.pdf")
+    window.open("media/ResumeMarch2021.pdf")
   } 
 
   /* Event listener to implement the navbars disappearing
