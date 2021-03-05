@@ -20,8 +20,8 @@
 }
 
 .nav-link {
-    padding: 10px;
-    color: white !important;
+  padding: 10px;
+  color: white !important;
 }
 
 .active {
@@ -33,8 +33,9 @@
 }
 
 body {
-    position: relative;
-    background-color: whitesmoke;
+  position: relative;
+  background-color: whitesmoke;
+  font: 1.2em "Optima", serif;
 }
 
 #content{
@@ -43,24 +44,33 @@ body {
 
 .project-lang {
   color: grey;
+  text-align: center;
 }
 
 .card-header {
   background-color: #5CDB95;
   color: #05386B;
+  text-align: center;
 }
 
 .card-body {
   background-color: #EDF5E1;
 }
 
-.featured-cards {
+.card {
   margin: 10px;
+}
+
+.featured-cards {
   height: 90%;
 }
 
 .more-cards {
   height: 100%;
+}
+
+.more-footer {
+  padding: 0px;
 }
 
 .btn-outline-info {
@@ -82,7 +92,11 @@ body {
   overflow: hidden;
 }
 
-h2 {
+h1 {
+  text-align: center;
+}
+
+.card-title {
   text-align: center;
 }
 
@@ -100,7 +114,7 @@ p {
   display: inline-block;
   border-radius: 5px;
   height: 42px;
-  max-width: 30% !important;
+  width: 50% !important;
   background-color: #05386B;
 }
 
@@ -130,4 +144,28 @@ p {
 
 .social:visited {
   color: black;
+}
+
+#profile-container {
+  max-height: 300px;
+  max-width: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#profile-picture {
+  margin-top: -120px;
+  margin-left: 100px;
+  height: 600px;
+  width: auto;
+}
+
+#profile-text {
+  padding-bottom: 25px;
+}
+
+#header-container {
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
