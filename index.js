@@ -101,7 +101,7 @@ function more_button() {
     current_position = window.scrollY;
   
     // Scrolling down
-    if (last_position < current_position - 10) {
+    if (last_position < current_position - 10 && current_position > 100) {
       navBar.classList.add("navbar-hide");
       last_position = current_position;
     }
