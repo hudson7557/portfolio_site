@@ -12,7 +12,7 @@
 
 .nav-link {
   padding: 10px;
-  color: white !important;
+  color: rgb(206, 206, 206) !important;
 }
 
 .active {
@@ -20,14 +20,14 @@
 }
 
 .navbar-brand {
-  color: goldenrod !important;
+  color: #F6D55C !important;
 }
 
 body {
   position: relative;
-  background-color:#203647;
+  background-color:#12232e;
   font: 1.2em "Optima", serif;
-  color: #EEFBFB;
+  color: rgb(206, 206, 206) ;
 }
 
 #content{
@@ -40,19 +40,19 @@ body {
 }
 
 .card-header {
-  background-color: #12232E;
+  background-color: #203647;
   color: #EEFBFB;
   text-align: center;
 }
 
 .card-body {
-  background-color: #12232E;
+  background-color: #203647;
 
 }
 
 .card {
   margin: 10px;
-  border-color: #12232e;
+  border-color: #203647;
 }
 
 .featured-cards {
@@ -104,7 +104,7 @@ p {
 #resume-button {
   width: 50% !important;
   max-width: 50%;
-  background-color: #4DA8DA;
+  background-color: #3CAEA3;
 }
 
 #resume-button-container {
@@ -128,7 +128,7 @@ p {
 }
 
 #see-more {
-  background-color: #4DA8DA;
+  background-color: #3CAEA3;
   width: 50%;
 }
 
@@ -138,7 +138,7 @@ p {
 }
 
 .connect-with-me {
-  color: black;
+  color: #3CAEA3;
   text-decoration: none;
   font-size: 42px;
 }
