@@ -188,3 +188,8 @@ p {
 #featured-projects-header {
   padding-top: 50px;
 }
+
+#hardly-picture {
+  top: 50%;
+  left: 50%;
+}
