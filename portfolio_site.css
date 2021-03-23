@@ -102,8 +102,8 @@ p {
 }
 
 #resume-button {
-  width: 50% !important;
-  max-width: 50%;
+  width: 55% !important;
+  max-width: 325px;
   background-color: #3CAEA3;
 }
 
@@ -141,15 +141,17 @@ p {
   color: #3CAEA3;
   text-decoration: none;
   font-size: 55px;
-  padding: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 #contact-links {
-  padding: 20px;
+  padding-top: 75px;
+  padding-bottom: 42px;
 }
 
 #contact-button {
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .social:visited {
