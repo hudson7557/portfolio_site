@@ -87,32 +87,28 @@ function more_button() {
   });
 };
 
-  function loadPdf() {
-    window.open("media/ResumeMarch2021.pdf")
-  } 
+function loadPdf() {
+  window.open("media/ResumeMarch2021.pdf")
+} 
 
-  /* Event listener to implement the navbars disappearing
-  // effect on scroll
-  */
-  window.addEventListener('scroll', function() {
-  
-    let navBar = document.getElementById("navarino");
-  
-    current_position = window.scrollY;
-  
-    // Scrolling down
-    if (last_position < current_position - 10 && current_position > 100) {
-      navBar.classList.add("navbar-hide");
-      last_position = current_position;
-    }
-    // Scrolling up
-    if (last_position > current_position) {
-      navBar.classList.remove("navbar-hide");
-      last_position = current_position;
-    }
-  });
+/* Event listener to implement the navbars disappearing
+// effect on scroll disabled cause people don't like it :( )
 
+window.addEventListener('scroll', function() {
 
-/* function loadPdf() {
-  window.open("Resume June 2020.pdf")
-} */
+  let navBar = document.getElementById("navarino");
+
+  current_position = window.scrollY;
+
+  // Scrolling down
+  if (last_position < current_position - 10 && current_position > 100) {
+    navBar.classList.add("navbar-hide");
+    last_position = current_position;
+  }
+  // Scrolling up
+  if (last_position > current_position) {
+    navBar.classList.remove("navbar-hide");
+    last_position = current_position;
+  }
+});
+*/

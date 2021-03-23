@@ -140,7 +140,16 @@ p {
 .connect-with-me {
   color: #3CAEA3;
   text-decoration: none;
-  font-size: 42px;
+  font-size: 55px;
+  padding: 5%;
+}
+
+#contact-links {
+  padding: 20px;
+}
+
+#contact-button {
+  padding-bottom: 50px;
 }
 
 .social:visited {
@@ -182,7 +191,7 @@ p {
 
 #contact-header {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 #featured-projects-header {
