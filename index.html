@@ -41,7 +41,6 @@
             <p id="hello-msg">
               Hi! I’m Scott Hudson, a student and Teaching Assistant in OSU’s online Computer Science program who is working to become a Software Engineer. 
             </p>
-
           </div>
           <div class="d-flex justify-content-center" id="profile-container">
             <img src="media/IMG_6365.jpeg"  id="profile-picture">
@@ -61,25 +60,23 @@
     <section id="projects">
       <div class="container">
         <h1 id="featured-projects-header">Featured Projects</h1>
+        <h5>Clicking on the cards will take you to a demo or live application where you can see these programs in action!</h5>
       </div>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="featured-cards card">
-              <img src="media/smallsh.jpg" class="card-img-top" alt="The terminal disaplyed while smallsh is running">
+            <a href="https://repl.it/@ScottHudson/hudsonscprogram3-1#README.md" class="stretched-link"></a>
+            <img src="media/smallsh.jpg" class="card-img-top" alt="The terminal disaplyed while smallsh is running">
             <div class="card-body">
               <h3 class="card-title">Smallsh</h3>
-              <p class="card-text project-lang">C</p>
+              <p class="card-subtitle featured-subtitle">C</p>
               <p class="card-text">
                 A program which spawns and manages child programs to act like a bash shell when run in the terminal. 
                 It has a couple of commands which I implemented myself, all other commands are spawned using fork().
               </p>
               <div class="card-footer bg-transparent no-border align-bottom">
                 <div class="text-end">
-                  You can run Smallsh on <a href="https://repl.it/@ScottHudson/hudsonscprogram3-1#README.md">
-                    repl.it</a> or view it on GitHub.
-                    <a href="https://github.com/hudson7557/hudsonsc_program3" class="connect-with-me">
-                      <i class="bi bi-github"></i>
-                    </a>
+                  Can be found on my GitHub in the Smallsh repo.
                 </div>
               </div>
             </div>
@@ -87,20 +84,18 @@
         </div>
         <div class="col">
           <div class="featured-cards card">
+            <a href="https://youtu.be/E9UGDLL3HE4" class="stretched-link"></a>
             <img src="media/hardlyworkingout.jpg" class="card-img-top img-fluid" alt="The homescreen of Hardly Working(Out)">
             <div class="card-body">
               <h3 class="card-title">Hardly Working(Out)</h3>
-              <p class="card-text project-lang">HTML / CSS / JavaScript / Node.js / MySQL</p>
+              <p class="card-subtitle featured-subtitle">HTML / CSS / JavaScript / Node.js / MySQL</p>
               <p class="card-text">
                 A gameplay workout app which I developed as part of a scrum team, it features a full backend to allow users to pick, create, schedule, and save workouts.
                 Users can also challenge friends, login using OAuth, and track fitness goals.
               </p>
               <div class="card-footer bg-transparent no-border align-bottom">
                 <div class="text-end">
-                  See our video demo on <a href="https://youtu.be/E9UGDLL3HE4">YouTube</a> or view it on GitHub.
-                  <a href="https://github.com/djmasoner/Hardly-Working-Out" class="connect-with-me">
-                    <i class="bi bi-github"></i>
-                  </a>
+                  Can be found on my classmates GitHub in the pinned djmasoner/Hardly Working Out repo.
                 </div>
               </div>
             </div>
@@ -108,20 +103,18 @@
         </div>
         <div class="col">
           <div class="featured-cards card">
+            <a href="https://repl.it/@ScottHudson/Sudoku#README.md" class="stretched-link"></a>
             <img src="media/sudoku.jpg" class="card-img-top" alt="The command line display of the sudoku solver program">
             <div class="card-body">
               <h3 class="card-title">NP-Complete Sudoku Solver</h3>
-              <p class="card-text project-lang">Python</p>
+              <p class="card-subtitle featured-subtitle">Python</p>
               <p class="card-text">
                 A command line base sudoku program which allows the users to play sudoku, check their answers, or have the computer solve it for them.
                 This program was a look at NP-Complete puzzle problems and involves a solution algorithm with a ridiculous runtime complexity of O(n^2k).
               </p>
-              <div class="card-footer bg-transparent no-border">
+              <div class="card-footer bg-transparent no-border align-bottom">
                 <div class="text-end">
-                  You can run Sudoku on <a href="https://repl.it/@ScottHudson/Sudoku#README.md">repl.it</a> or view it on GitHub.
-                  <a href="https://github.com/hudson7557/Sudoku" class="connect-with-me">
-                    <i class="bi bi-github"></i>
-                  </a>
+                  Can be found on my GitHub in the Smallsh repo.
                 </div>
               </div>
             </div>
@@ -130,149 +123,114 @@
       </div>
     </section>
     <section id="more_projects">
-      <h1>More Projects</h1>
+      <h1 id="more-projects-header">More Projects</h1>
+      <h5>These projects are not demoed or hosted, clicking on them will take you to their respective GitHub repo's.</h5>
       <div class="row row-cols-1 row-cols-md-3 g-4 h-100">
         <div class="col">
           <div class="more-cards card h-100">
+            <a href="https://github.com/hudson7557/hudsonsc_program5" class="stretched-link"></a>
             <h4 class="card-header">Encryption Servers</h4>
             <div class="card-body">
               <h6 class="card-subtitle mb-2 project-lang">C</h6>
               <p class="card-text">
                 A set of one-time pad encryption and decryption servers designed to follow a producer consumer pipeline. Users can send and receive encrypted messages between the two clients.
               </p>
-              <div class="card-footer bg-transparent no-border align-bottom text-end more-footer">
-                <a href="https://github.com/hudson7557/hudsonsc_program5" class="connect-with-me">
-                  <i class="bi bi-github"></i>
-                </a>
-              </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="more-cards card">
+            <a href="https://github.com/hudson7557/Bamboozled-Brewing" class="stretched-link"></a>
             <h4 class="card-header">Bamboozled Brewing</h4>
             <div class="card-body">
               <h6 class="card-subtitle mb-2 project-lang">HTML / CSS / JavaScript</h6>
               <p class="card-text">
                 The website for a fictitious seltzer company called Bamboozled Brewing. It features various web design principles such as a carousel, basic navigation, and features you'd generally expect from a brewing company's website.
               </p>
-              <div class="card-footer bg-transparent no-border align-bottom text-end more-footer">
-                <a href="https://github.com/hudson7557/Bamboozled-Brewing" class="connect-with-me">
-                  <i class="bi bi-github"></i>
-                </a>
-              </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="more-cards card">
+            <a href="https://github.com/hudson7557/rhythm-finder" class="stretched-link"></a>
             <h4 class="card-header">Rhythm Finder</h4>
             <div class="card-body">
               <h6 class="card-subtitle mb-2 project-lang">HTML / CSS / JS / Handlebars / MySQL</h6>
               <p class="card-text">
                 A full-scale database which uses an entity relationship model to represent a music library. It comes with a simple front end for maintaining and adding to the database.
               </p>
-              <div class="card-footer bg-transparent no-border align-bottom text-end more-footer">
-                <a href="https://github.com/hudson7557/rhythm-finder" class="connect-with-me">
-                  <i class="bi bi-github"></i>
-                </a>
-              </div>
             </div>
           </div>
         </div>
         <div class="col hide-this">
           <div class="more-cards card">
+            <a href="https://github.com/hudson7557/Homework-5-Code" class="stretched-link"></a>
             <h4 class="card-header">Sorting Wrestlers with WFS</h4>
             <div class="card-body">
               <h6 class="card-subtitle mb-2 project-lang">Python</h6>
               <p class="card-text">
                 A smaller program which uses a producer consumer pipeline to produce a set of wrestler objects which are then consumed by a modified whatever first search to see if it's possible to assume there's two teams of wrestlers present.
               </p>
-              <div class="card-footer bg-transparent no-border align-bottom text-end more-footer">
-                <a href="https://github.com/hudson7557/Homework-5-Code" class="connect-with-me">
-                  <i class="bi bi-github"></i>
-                </a>
-              </div>
             </div>
           </div>
         </div>
         <div class="col hide-this">
           <div class="more-cards card">
+            <a href="https://github.com/hudson7557/CS261-Assignment-4" class="stretched-link"></a>
             <h4 class="card-header">Hash Map Concordance</h4>
             <div class="card-body">
               <h6 class="card-subtitle mb-2 project-lang">Python</h6>
               <p class="card-text">
                 An implementation of a hash map and concordance program. The concordance counts the number of occurrences of each word in a document and uses the hash map to keep track of each words count.
               </p>
-              <div class="card-footer bg-transparent no-border align-bottom text-end more-footer">
-                <a href="https://github.com/hudson7557/CS261-Assignment-4" class="connect-with-me">
-                  <i class="bi bi-github"></i>
-                </a>
-              </div>
             </div>
           </div>
         </div>
         <div class="col hide-this">
           <div class="more-cards card">
+            <a href="https://github.com/hudson7557/fboard" class="stretched-link"></a>
             <h4 class="card-header">FBoard</h4>
             <div class="card-body">
               <h6 class="card-subtitle mb-2 project-lang">Python</h6>
               <p class="card-text">
                 A simple board game played with X's and an O, X's are trying to get from one end of the board to the other while O tries to stop them.
               </p>
-              <div class="card-footer bg-transparent no-border align-bottom text-end more-footer">
-                <a href="https://github.com/hudson7557/fboard" class="connect-with-me">
-                  <i class="bi bi-github"></i>
-                </a>
-              </div>
             </div>
           </div>
         </div>
         <div class="col hide-this">
           <div class="more-cards card">
+            <a href="https://github.com/hudson7557/hudsonsc_program6" class="stretched-link"></a>
             <h4 class="card-header">Map Reduce in Rust</h4>
             <div class="card-body">
               <h6 class="card-subtitle mb-2 project-lang">Rust</h6>
               <p class="card-text">
                 A mutli-threaded MapReduce program which maps and reduces dummy data to organize it.
               </p>
-              <div class="card-footer bg-transparent no-border align-bottom text-end more-footer">
-                <a href="https://github.com/hudson7557/hudsonsc_program6" class="connect-with-me">
-                  <i class="bi bi-github"></i>
-                </a>
-              </div>
             </div>
           </div>
         </div>
         <div class="col hide-this">
           <div class="more-cards card">
+            <a href="https://github.com/hudson7557/Sudoku" class="stretched-link"></a>
             <h4 class="card-header">Xiangqi</h4>
             <div class="card-body">
               <h6 class="card-subtitle mb-2 project-lang">Python</h6>
               <p class="card-text">
                 A Xiangqi, or Chinese chess, program which can be played in terminal and detects when someone has won. It uses objects and inheritance to represent the board and pieces, pieces are moved using a polymorphic function.
               </p>
-              <div class="card-footer bg-transparent no-border align-bottom text-end more-footer">
-                <a href="https://github.com/hudson7557/Sudoku" class="connect-with-me">
-                  <i class="bi bi-github"></i>
-                </a>
-              </div>
             </div>
           </div>
         </div>
         <div class="col hide-this">
           <div class="more-cards card">
+            <a href="https://github.com/hudson7557" class="stretched-link"></a>
             <h4 class="card-header">Group unit testing project</h4>
             <div class="card-body">
               <h6 class="card-subtitle mb-2 project-lang">Python</h6>
               <p class="card-text">
                 Exploring unit testing with classmates, I was responsible for the second portion of unit tests.
               </p>
-              <div class="card-footer bg-transparent no-border align-bottom text-end more-footer">
-                <a href="https://github.com/hudson7557" class="connect-with-me">
-                  <i class="bi bi-github"></i>
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -290,10 +248,8 @@
     <section id="contact">
       <div class="container">
         <h1 id="contact-header">Contact information</h1>
+        <h5>You can connect with me by following the links below or using the contact information on my resume.</h5>
         <div class="row" id="connect-links">
-          <p>
-            You can connect with me by following the links below or using the contact information on my resume.
-          </p>
           <p id="contact-links">
             <a href="https://github.com/hudson7557" class="connect-with-me">
               <i class="bi bi-github"></i>

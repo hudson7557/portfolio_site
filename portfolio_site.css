@@ -1,7 +1,10 @@
 /* Navbar Styling */
 .navbar {
+  /*
+  * Anitmation for hide effect
   opacity: 1;
   transition: opacity 0.5s ease;
+  */
   background-color: #12232e; 
 }
 
@@ -59,6 +62,10 @@ body {
   height: 95%;
 }
 
+.featured-subtitle {
+  padding: 10px 0px 10px 0px;
+}
+
 .more-cards {
   height: 100%;
 }
@@ -83,6 +90,10 @@ body {
 }
 
 h1 {
+  text-align: center;
+}
+
+h5 {
   text-align: center;
   padding-bottom: 50px;
 }
@@ -111,10 +122,6 @@ p {
   padding-bottom: 25px;
 }
 
-#connect-links {
-  padding-top: 15px;
-}
-
 .hide-this {
   display: none;
 }
@@ -130,6 +137,7 @@ p {
 #see-more {
   background-color: #3CAEA3;
   width: 50%;
+  margin-top: 42px;
 }
 
 .more-button {
@@ -146,7 +154,6 @@ p {
 }
 
 #contact-links {
-  padding-top: 75px;
   padding-bottom: 42px;
 }
 
@@ -191,11 +198,17 @@ p {
   padding-bottom: 25px;
 }
 
+#featured-projects-header,
+#more-projects-header, 
 #contact-header {
-  padding-top: 50px;
-  padding-bottom: 0px;
+  padding-top: 100px;
 }
 
-#featured-projects-header {
-  padding-top: 50px;
+.text-end {
+  font-size: medium;
+  text-align: center !important;
+}
+
+.card-subtitle {
+  color: #3CAEA3;
 }
