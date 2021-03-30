@@ -212,3 +212,12 @@ p {
 .card-subtitle {
   color: #3CAEA3;
 }
+
+#more-projects-text {
+  padding-bottom: 5px;
+}
+
+#more-projects-subtext {
+  text-align: center;
+  padding-bottom: 5px;
+}
