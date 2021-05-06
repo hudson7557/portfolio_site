@@ -88,7 +88,7 @@ function more_button() {
 };
 
 function loadPdf() {
-  window.open("media/ResumeMarch2021.pdf")
+  window.open("media/ResumeMay2021.pdf")
 } 
 
 /* Event listener to implement the navbars disappearing
