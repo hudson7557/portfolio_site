@@ -1,3 +1,5 @@
+let currentResume = "media/ResumeJune2021.pdf";
+
 let resumeBtn = document.getElementById("resume-button");
 resumeBtn.addEventListener("click", loadPdf);
 
@@ -88,7 +90,7 @@ function more_button() {
 };
 
 function loadPdf() {
-  window.open("media/ResumeMay2021.pdf")
+  window.open(currentResume);
 } 
 
 /* Event listener to implement the navbars disappearing
